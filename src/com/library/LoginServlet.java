@@ -22,7 +22,8 @@ public class LoginServlet extends HttpServlet {
 		boolean result = as.authenticate(name, password);
 		if(result) {
 			request.getSession().setAttribute("username", name);
-			request.getRequestDispatcher("secure/menu.jsp").forward(request, response);
+			//request.getRequestDispatcher("secure/menu.jsp").forward(request, response);
+			response.sendRedirect("secure/menu.jsp");
 		}else {
 			request.getRequestDispatcher("welcome.jsp").include(request, response);
 			response.getWriter().append("Wrong UserName/Password");

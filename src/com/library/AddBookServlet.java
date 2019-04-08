@@ -18,7 +18,7 @@ public class AddBookServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.setContentType("test/html");
+		response.setContentType("text/html");
 		String id = request.getParameter("bookId");
 		String title = request.getParameter("bookTitle");
 		String author = request.getParameter("author");
@@ -28,10 +28,10 @@ public class AddBookServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		if(result == 0) {
 			out.append("Book Not Added");
-			out.append("<a href='secure/menu.jsp'>Show Menu</a>");
+			out.append("<br><a href='menu.jsp'>Show Menu</a>");
 		}else {
 			out.append("Book Added Successfully");
-			out.append("<a href='secure/menu.jsp'>Show Menu</a>");
+			out.append("<br><a href='menu.jsp'>Show Menu</a>");
 		}
 		
 	}

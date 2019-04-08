@@ -10,13 +10,13 @@
 	<jsp:include page="heading.jsp"/>
 	<br>
 	<br>
-	<a href="secure/addbook.jsp">Add Book</a>
+	<a href="addbook.jsp">Add Book</a>
 	<br>
 	<br>
 	<a href="">Delete Book</a>
 	<br>
 	<br>
-	<a href="">List All Books</a>
+	<a href="ListAllBooksServlet">List All Books</a>
 	<br>
 	<br>
 	<a href="">Search Book By ID</a>
