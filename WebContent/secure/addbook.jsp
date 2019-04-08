@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -7,21 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<jsp:include page="heading.jsp"/>
-	<br>
-	<br>
-	<a href="secure/addbook.jsp">Add Book</a>
-	<br>
-	<br>
-	<a href="">Delete Book</a>
-	<br>
-	<br>
-	<a href="">List All Books</a>
-	<br>
-	<br>
-	<a href="">Search Book By ID</a>
-	<br>
-	<br>
-	<a href="">Search Book By Title</a>
+Enter Book Details:
+<form action="AddBookServlet" method="post">
+Book ID : <input type="text" name="bookId">
+<br>
+Book Title: <input type="text" name="bookTitle">
+<br>
+Author : <input type="text" name="author">
+<br>
+<input type="submit" value="Add Book">
+</form>
+<br>
 </body>
 </html>
