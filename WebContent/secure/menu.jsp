@@ -23,5 +23,10 @@
 	<br>
 	<br>
 	<a href="searchbookbytitle.jsp">Search Book By Title</a>
+	
+	<br>
+	<br>
+	<a href="LogoutServlet">Logout</a>
+	<br>
 </body>
 </html>
