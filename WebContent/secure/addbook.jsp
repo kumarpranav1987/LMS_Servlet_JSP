@@ -16,6 +16,9 @@ Book Title: <input type="text" name="bookTitle">
 Author : <input type="text" name="author">
 <br>
 <input type="submit" value="Add Book">
+<br>
+<br>
+<a href="menu.jsp">Show Menu </a>
 </form>
 <br>
 </body>
