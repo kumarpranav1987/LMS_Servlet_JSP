@@ -22,6 +22,6 @@
 	<a href="searchbookbyid.jsp">Search Book By ID</a>
 	<br>
 	<br>
-	<a href="">Search Book By Title</a>
+	<a href="searchbookbytitle.jsp">Search Book By Title</a>
 </body>
 </html>
