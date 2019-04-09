@@ -13,7 +13,7 @@
 	<a href="addbook.jsp">Add Book</a>
 	<br>
 	<br>
-	<a href="">Delete Book</a>
+	<a href="deletebookbyid.jsp">Delete Book</a>
 	<br>
 	<br>
 	<a href="ListAllBooksServlet">List All Books</a>
